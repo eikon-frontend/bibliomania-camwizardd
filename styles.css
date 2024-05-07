@@ -2,7 +2,7 @@
 :root {
   --gl-star-empty: url(../img/star-empty.svg);
   --gl-star-full: url(../img/star-full.svg);
-  --gl-star-size: 24px;
+  --gl-star-size: 32px;
   --gl-tooltip-border-radius: 4px;
   --gl-tooltip-font-size: 0.875rem;
   --gl-tooltip-font-weight: 400;
@@ -12,4 +12,301 @@
   --gl-tooltip-size: 6px;
 }
 
-/* 🦊 Vos styles ici */
+
+
+
+
+body {
+  max-width: 430px;
+  margin-left: auto;
+  margin-right: auto;
+  background: #ECE7D4;
+
+}
+
+.card {
+  border-radius: 37px 37px 0px 0px;
+  background: #FFFCF0;
+  box-shadow: 0px 1px 26px -5px rgba(94, 64, 48, 0.16);
+  padding: 25px;
+}
+
+h1 {
+  color: #5E4030;
+  text-align: center;
+  font-family: "Fredoka", sans-serif;
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+
+h2 {
+  color: #5E4030;
+  font-family: "Fredoka", sans-serif;
+  font-size: 24px;
+}
+
+h3 {
+  color: #5E4030;
+  font-family: "Fredoka", sans-serif;
+  font-weight: 500;
+  font-size: 22px;
+  margin-bottom: 14px;
+  margin-top: 44px;
+}
+
+.text {
+  color: #5E4030;
+  text-align: justify;
+  font-family: Fredoka;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.img {
+  text-align: center;
+  margin-bottom: -36px;
+}
+
+.column {
+  column-count: 2;
+  -moz-column-count: 2;
+  -webkit-column-count: 2;
+  column-gap: 39px;
+  -moz-column-gap: 39px;
+  -webkit-column-gap: 39px;
+}
+
+.text2 {
+  color: #5E4030;
+  text-align: justify;
+  font-family: Fredoka;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 166.986%;
+}
+
+a {
+  color: #5E4030;
+  text-align: justify;
+  font-family: Fredoka;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+}
+
+.column2 {
+  color: #5E4030;
+  text-align: justify;
+  font-family: Fredoka;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 166.986%;
+}
+
+.ligne {
+  margin-top: 22px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.marion {
+  margin-top: -20px;
+  margin-bottom: 17px;
+}
+
+.notegrand {
+  color: #5E4030;
+  font-family: "Fredoka", sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+
+}
+
+.notegrand2 {
+  color: #5E4030;
+  font-family: "Fredoka", sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+
+.plus {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+}
+
+strong {
+  color: #5E4030;
+  text-align: justify;
+  font-family: Fredoka;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.legend {
+  color: rgba(94, 64, 48, 0.55);
+  font-family: "Fredoka";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.legend2 {
+  color: rgba(94, 64, 48, 0.55);
+  font-family: "Fredoka";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.note {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: -30px;
+}
+
+.rating {
+  margin-left: 190px;
+  margin-top: -50px;
+}
+
+.barnav {
+  background: #c2a48f;
+  border-radius: 40px 40px 0px 0px;
+  width: 100%;
+  height: 83px;
+  left: 0px;
+  bottom: 0px;
+  box-shadow: 0px 0px 9.1px 2px rgba(194, 164, 143, 0.52);
+  position: sticky;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-left: 71px;
+  margin-right: 68px;
+}
+
+.starcontent {
+  display: flex;
+  margin-top: 68px;
+  margin-bottom: 52px;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.legend2 {
+  margin-top: 9px;
+}
+
+.starrating {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: -30px;
+}
+
+.comment1 {
+  border-radius: 23px;
+  background: #ECE7D4;
+  padding: 19px;
+}
+
+.titlecomm {
+  color: #5E4030;
+  font-family: "Fredoka";
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.legendcom {
+  color: rgba(94, 64, 48, 0.55);
+  font-family: Fredoka;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.name {
+  display: flex;
+  margin-bottom: 10px;
+  justify-content: space-between
+}
+
+.follow {
+  color: #66929B;
+  font-family: "Fredoka";
+  font-size: 14px;
+  font-weight: 500;
+  text-align: right;
+}
+
+.textcom {
+  color: #5E4030;
+  font-family: Fredoka;
+  font-size: 15px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.comment2 {
+  border-radius: 23px;
+  background: #ECE7D4;
+  padding: 19px;
+  margin-top: 25px;
+}
+
+.following {
+  color: rgba(94, 64, 48, 0.54);
+  font-family: "Fredoka";
+  font-size: 14px;
+  font-weight: 500;
+  text-align: right;
+}
+
+.card2 {
+  color: #66929B;
+  font-family: Fredoka;
+}
+
+.writecom {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+  justify-content: space-between;
+}
+
+.lire {
+  display: flex;
+
+}
+
+.arrow3 {
+  display: flex;
+  justify-content: center;
+  margin-top: 45px;
+  margin-bottom: 100px
+}
+
+.arrow1 {
+  display: flex;
+  margin-left: 36px;
+  margin-top: 95px;
+  margin-bottom: -50px;
+}
